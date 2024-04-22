@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Categories</title>
+    <style>
+        .category {
+            display: inline-block;
+            width: 145px;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            background-color: lightgray;
+            cursor: pointer;
+            margin-right: 40px;
+        }
+
+        .subcategory {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 170px;
+            height: 50px;
+            line-height: 15px;
+            text-align: center;
+            font-size: 18px;
+            margin: 20px;
+          \*  background-color: lightblue;
+            cursor: pointer;
+        }
+  .icon-container {
+    text-align: center;
+  }
+
+  .text-below-icon {
+    margin-top: 0px;
+  }
+    </style>
+    <script>
+
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</head>
+<body>
+    <div class="category"><a href="subcategoryA.html"><p class="text-below-icon">Entertainment</p></a></div>
+    <div class="category"><a href="subcategoryB.html"><p class="text-below-icon">Movies</p></a></div>
+    <div class="category"><a href="subcategoryC.html"><p class="text-below-icon">Music</p></a></div>
+    <div class="category"><a href="subcategoryD.html"><p class="text-below-icon">Infotainment</p></a></div>
+    <div class="category"><a href="subcategoryE.html"><p class="text-below-icon">Kids</p></a></div>
+    <div class="category"><a href="subcategoryF.html"><p class="text-below-icon">Religious</p></a></div>
+    <div class="category"><a href="subcategoryG.html"><p class="text-below-icon">Others</p></a></div>
+
+</body>
+</html>
